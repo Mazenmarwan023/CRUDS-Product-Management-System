@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family: system-ui;
+    /* display: flex;
+    justify-content: center; */
+}
+.cruds{
+    width: 80%;
+    margin: auto;      /* momkn a3ml dh aw comment el fo2 fy body */
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #111;
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+input:focus{
+    background-color: black;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+    padding: 10px;
+    margin: 0 10px;
+}
+small{
+    background-color: rgb(142, 4, 2);
+    padding: 5px;
+    border-radius: 4px;
+}
+small::before{
+    content:'Total: '
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(115, 37, 131);
+    color: white;
+    font-size:13px ;
+    font-weight: 500;
+    margin: 15px 0;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: rgb(58, 9, 68);
+    letter-spacing: 1px;
+}
+.btn-search{
+    display: flex;
+    justify-content: center;
+}
+.btn-search button{
+    width: 20%;
+    margin-left: 40px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+table button{
+    width:70px;
+}
+th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 4px;
+}
